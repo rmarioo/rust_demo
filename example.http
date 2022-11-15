@@ -1,3 +1,7 @@
 ### GET request with a header
 GET localhost:9999/hey
 Accept: text/html
+
+### sample html template
+GET localhost:9999/template
+Accept: text/html
