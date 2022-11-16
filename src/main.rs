@@ -1,3 +1,5 @@
+mod for_compriension;
+
 use std::env;
 use actix_web::{web, App, HttpResponse, HttpServer};
 use askama::Template;
