@@ -32,7 +32,13 @@ fn  find_expenses(hotel: Hotel, city: &City,country: &Country) -> Result<Price, 
 }
 
 fn find_price_for(hotel_name: &str, city_name: &str, country_name: &str) -> Result<Price, MyError> {
-    todo!() // todo retrieve country then city then hotel then expenses. Consider that each of 4 steps can fail
+
+    let country= find_country(country_name)?;
+    let city   = find_city(city_name, &country)?;
+    let hotel = find_hotel(hotel_name, &city)?;
+    let price = find_expenses(hotel, &city, &country)?;
+
+    return Ok(price);
 }
 
 /*
