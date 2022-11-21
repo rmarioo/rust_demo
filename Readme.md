@@ -3,7 +3,7 @@
 2. There can only be one owner at a time.
 3. When the owner goes out of scope, the value will be dropped.
 
-## benefits of ownership rules 
+## Benefits 
 - **Avoid need to have a GC** to regularly looks for no-longer used memory 
 - **Avoid dangling pointers** at compile time
 - **Avoid prevent data races** at at compile time
