@@ -9,7 +9,7 @@ fn main() {
 mod test {
 
 // Example 1
-    #[test]
+ /*   #[test]
     fn  ownership_test() {
 
         let  x = "BARCELONA".to_string();
@@ -18,7 +18,7 @@ mod test {
         let res = format!("word {} has lenght {}", x, x.len());
 
         assert_eq!(res,"word BARCELONA has lenght 9")
-    }
+    }*/
 
 
 
