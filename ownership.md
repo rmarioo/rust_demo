@@ -22,8 +22,7 @@ fn  ownership_test() {
 }
 
 ```
-
-![Drag Racing](rust_borrowing.png)
+![Rust_Borrowing](rust_borrowing.png)
 
 ## Value borrowed by a function after a move : example 2
 
